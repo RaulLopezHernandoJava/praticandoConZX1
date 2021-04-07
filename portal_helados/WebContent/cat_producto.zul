@@ -1,0 +1,17 @@
+<?page title="Productos" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="Productos" border="normal" apply="com.portal_helados.ctrl.CatProductoCtrl">
+	<button id="btnGuardar" label="Guardar"/>
+		<listbox id="lbxCatProducto">
+
+			<listhead>
+
+				<listheader label="Codigo" />
+				<listheader label="Nombre" />
+				<listheader label="Descripcion" />
+				<listheader label="Precio" />
+			</listhead>
+
+		</listbox>
+	</window>
+</zk>

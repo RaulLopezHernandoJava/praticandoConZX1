@@ -1,0 +1,7 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Hello World!!" border="normal" width="200px" apply="com.portal_helados.ctrl.IndexCtrl">
+
+<label id="lblSaludo"/>
+<button id="btnSaludo" label="Demo evento"></button>
+
+</window>
